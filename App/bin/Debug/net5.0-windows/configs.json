@@ -1,0 +1,48 @@
+﻿{
+  "Countries": [
+    "Türkiye"
+  ],
+  "Cities": [
+    "İzmir"
+  ],
+  "Counties": null,
+  "OnlyRemoteJobs": false,
+  "Date": "Tümü",
+  "FirstTimePublished": false,
+  "JobsForYou": false,
+  "SavedJobs": false,
+  "FollowedCompaniesJobs": false,
+  "ViewedJobs": false,
+  "Sectors": [
+    "Bilişim",
+    "Üretim / Endüstriyel Ürünler",
+    "Enerji",
+    "Otomotiv",
+    "Sağlık",
+    "Hizmet",
+    "Danışmanlık",
+    "Reklam ve Tanıtım",
+    "Medya",
+    "Bilgi Teknolojileri"
+  ],
+  "PositionLevels": null,
+  "Departments": [
+    "Satış ve Pazarlama",
+    "Satış",
+    "Pazarlama"
+  ],
+  "WorkingTypes": [
+    "Sürekli / Tam zamanlı"
+  ],
+  "EducationLevels": null,
+  "Positions": null,
+  "CompanyProperties": null,
+  "JobLanguages": [
+    "Türkçe"
+  ],
+  "ExpeirenceTime": "Tümü",
+  "DisabilityJobs": null,
+  "Words": [
+    "b sınıfı"
+  ]
+}
