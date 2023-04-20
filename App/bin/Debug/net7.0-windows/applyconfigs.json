@@ -1,0 +1,137 @@
+﻿[
+  {
+    "SelectId": "ddlOzgecmisSeciniz",
+    "SelectCaption": "Özgeçmiş Seçiniz *",
+    "OptionString": "27.04.2017"
+  },
+  {
+    "SelectId": "ddlOnyaziSeciniz",
+    "SelectCaption": "Önyazı Seçiniz",
+    "OptionString": "İŞ BAŞVURUSU"
+  },
+  {
+    "SelectId": "divQueCity1",
+    "SelectCaption": "Şehir Tercihiniz *",
+    "OptionString": "İzmir"
+  },
+  {
+    "SelectId": "divQueCity2",
+    "SelectCaption": "Şehir Tercihiniz *",
+    "OptionString": "İzmir"
+  },
+  {
+    "SelectId": "divQueCity3",
+    "SelectCaption": "Şehir Tercihiniz *",
+    "OptionString": "İzmir"
+  },
+  {
+    "SelectId": "26611",
+    "SelectCaption": "Net ücret beklenti aralığınızı belirtin. *",
+    "OptionString": "7000 – 10000"
+  },
+  {
+    "SelectId": "26613",
+    "SelectCaption": "Vardiyalı veya hafta sonları çalışır mısınız? *",
+    "OptionString": "Bazen (gerekli durumlarda)"
+  },
+  {
+    "SelectId": "82151",
+    "SelectCaption": "Kaç yıldır bu pozisyonda çalışıyorsunuz/çalıştınız? *",
+    "OptionString": "3 - 5 Yıl"
+  },
+  {
+    "SelectId": "82153",
+    "SelectCaption": "Şu an çalışıyor musunuz? *",
+    "OptionString": "Hayır"
+  },
+  {
+    "SelectId": "82152",
+    "SelectCaption": "Hangi programları kullanabiliyorsunuz?",
+    "OptionString": "Microsoft Ofis Programları, Migros Ticaret A.Ş şirketine ait özel yazılımı, Koton A.Ş yazılımı, Smart CRM, CRM."
+  },
+  {
+    "SelectId": "82150",
+    "SelectCaption": "İngilizce seviyeniz nedir? *",
+    "OptionString": "Orta"
+  },
+  {
+    "SelectId": "82154",
+    "SelectCaption": "Hangi sertifikalarınız/belgeleriniz var?",
+    "OptionString": "Beden Dili, Etkili İletişim Teknikleri, Müşteri Deneyim, Satış, Müşteri Hizmetleri"
+  },
+  {
+    "SelectId": "26612",
+    "SelectCaption": "Seyahat engeliniz var mı? *",
+    "OptionString": "Hayır"
+  },
+  {
+    "SelectId": "26614",
+    "SelectCaption": "Aktif olarak araç kullanıyor musunuz? *",
+    "OptionString": "Evet"
+  },
+  {
+    "SelectId": "82155",
+    "SelectCaption": "Zorunlu staj belgeniz var mı? *",
+    "OptionString": "Hayır"
+  },
+  {
+    "SelectId": "82697",
+    "SelectCaption": "Çalışmak İstediğiniz İli Seçiniz *",
+    "OptionString": "İzmir"
+  },
+  {
+    "SelectId": "83176",
+    "SelectCaption": "SRC4 ve psikoteknik belgeleriniz var mı?",
+    "OptionString": "Hayır"
+  },
+  {
+    "SelectId": "78543",
+    "SelectCaption": "İngilizceyi sözlü olarak kullanabiliyor musunuz? *",
+    "OptionString": "Hayır"
+  },
+  {
+    "SelectId": "82156",
+    "SelectCaption": "Üniversite kaçıncı sınıfsınız? *",
+    "OptionString": "4"
+  },
+  {
+    "SelectId": "83675",
+    "SelectCaption": "Ev Dışı Tüketim Ürünlerinin Satışı Konusunda Tecrübeniz Varmı? Var ise Süresi",
+    "OptionString": "Yok"
+  },
+  {
+    "SelectId": "76835",
+    "SelectCaption": "AKTİF OLARAK ARAÇ KULLANIYOR MUSUNUZ ? *",
+    "OptionString": "EVET"
+  },
+  {
+    "SelectId": "83339",
+    "SelectCaption": "ÇALIŞMAK İSTEDİĞİNİZ LOKASYON NEDİR ? *",
+    "OptionString": "İZMİR"
+  },
+  {
+    "SelectId": "82845",
+    "SelectCaption": "İkamet edebileceğiniz şehir belirtiniz. *",
+    "OptionString": "İZMİR"
+  },
+  {
+    "SelectId": "82724",
+    "SelectCaption": "Mevcut çalıştığınız şirketteki ortalama net maaşınız ve sahip olduğunuz yan haklar nelerdir? Ne kadarlık bir net ücret beklentiniz vardır?",
+    "OptionString": ""
+  },
+  {
+    "SelectId": "82725",
+    "SelectCaption": "Eğer çalışıyorsanız yeni bir iş arayışına girme sebebiniz nedir?",
+    "OptionString": "Mevcutta aktif olarak bir şirketin pozisyonunda rol almıyorum."
+  },
+  {
+    "SelectId": "82726",
+    "SelectCaption": "Başvurduğunuz bu pozisyon için neden uygun olduğunuzu kısaca açıklar mısınız?",
+    "OptionString": ""
+  },
+  {
+    "SelectId": "83669",
+    "SelectCaption": "Çalışmak istediğiniz ili seçiniz *",
+    "OptionString": "İzmir"
+  }
+]

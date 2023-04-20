@@ -40,3 +40,15 @@ C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.dll
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\Browser\obj\Debug\net5.0\refint\Browser.dll
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.pdb
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\Browser\obj\Debug\net5.0\ref\Browser.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\bin\Debug\net5.0\Browser.deps.json
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\bin\Debug\net5.0\Browser.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\bin\Debug\net5.0\Browser.pdb
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.csproj.AssemblyReference.cache
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.AssemblyInfoInputs.cache
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.AssemblyInfo.cs
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.csproj.CoreCompileInputs.cache
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\refint\Browser.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\Browser.pdb
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\obj\Debug\net5.0\ref\Browser.dll

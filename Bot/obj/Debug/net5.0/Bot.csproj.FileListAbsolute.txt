@@ -1,6 +1,5 @@
 C:\Users\cemal\source\repos\KariyerBasvuruBot\Bot\bin\Debug\net5.0\Bot.deps.json
 C:\Users\cemal\source\repos\KariyerBasvuruBot\Bot\bin\Debug\net5.0\Bot.dll
-C:\Users\cemal\source\repos\KariyerBasvuruBot\Bot\bin\Debug\net5.0\ref\Bot.dll
 C:\Users\cemal\source\repos\KariyerBasvuruBot\Bot\bin\Debug\net5.0\Bot.pdb
 C:\Users\cemal\source\repos\KariyerBasvuruBot\Bot\bin\Debug\net5.0\Browser.dll
 C:\Users\cemal\source\repos\KariyerBasvuruBot\Bot\bin\Debug\net5.0\Core.dll
@@ -32,3 +31,4 @@ C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\Bot\obj\Debug\net5.0\Bot.dll
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\Bot\obj\Debug\net5.0\refint\Bot.dll
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\Bot\obj\Debug\net5.0\Bot.pdb
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\Bot\obj\Debug\net5.0\ref\Bot.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net5.0\refint\Bot.dll

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6kPdgyO7YCyhTWT2Yb6GtKTFI7gV6LD7uhB2/hDRNbGJbth5wbQACPJfU6wcKuj+lrX/rLGHg3DOD5q9rpwE4g==",
+  "dgSpecHash": "g6PnR21Po+79nO/XDzEeQnIJbO4CTUcz2QX3c3Y4QERDsutLKveCJOdYv80UJyTA1tJL+GNIPREzNOo9ql5ocw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\selenium.webdriver\\4.5.1\\selenium.webdriver.4.5.1.nupkg.sha512"
+    "C:\\Users\\cemal\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\cemal\\.nuget\\packages\\selenium.webdriver\\4.5.1\\selenium.webdriver.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

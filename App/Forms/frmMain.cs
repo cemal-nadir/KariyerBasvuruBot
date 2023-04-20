@@ -98,25 +98,6 @@ namespace App.Forms
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            var isCancelled = false;
-            while (!_worker.CheckLogin()&&isCancelled == false)
-            {
-              
-                if (MessageBox.Show("Lütfen Kariyer.net\'e Giriş Yaptıktan Sonra Tamam\'a Basın", "Giriş Yapın", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.Cancel)
-                {
-                    isCancelled = true;
-                }
-
-                
-            }
-
-            if (isCancelled)
-            {
-                await _worker.StopBot();
-                Stop();
-                return;
-            }
-
             _worker.Config = new KariyerConfig()
             {
                 Countries = listCountry.Items.Count > 0 ? listCountry.Items.Cast<string>() : null,
@@ -142,6 +123,27 @@ namespace App.Forms
                 JobLanguages = checkLanguage.CheckedItems.Count > 0 ? checkLanguage.CheckedItems.Cast<string>() : null
             };
             _worker.ApplyJobConfigs = MainHelper.GetSavedKariyerApplyConfig();
+            var isCancelled = false;
+            
+            while (!_worker.CheckLogin()&&isCancelled == false)
+            {
+              
+                if (MessageBox.Show("Lütfen Kariyer.net\'e Giriş Yaptıktan Sonra Tamam\'a Basın", "Giriş Yapın", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.Cancel)
+                {
+                    isCancelled = true;
+                }
+
+                
+            }
+
+            if (isCancelled)
+            {
+                await _worker.StopBot();
+                Stop();
+                return;
+            }
+
+           
             try
             {
                

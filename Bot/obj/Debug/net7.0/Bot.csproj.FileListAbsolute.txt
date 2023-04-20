@@ -1,0 +1,17 @@
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\bin\Debug\net7.0\Bot.deps.json
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\bin\Debug\net7.0\Bot.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\bin\Debug\net7.0\Bot.pdb
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\bin\Debug\net7.0\Browser.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\bin\Debug\net7.0\Core.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\bin\Debug\net7.0\Browser.pdb
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\bin\Debug\net7.0\Core.pdb
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\Bot.csproj.AssemblyReference.cache
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\Bot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\Bot.AssemblyInfoInputs.cache
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\Bot.AssemblyInfo.cs
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\Bot.csproj.CoreCompileInputs.cache
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\Bot.csproj.CopyComplete
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\Bot.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\refint\Bot.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\Bot.pdb
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Bot\obj\Debug\net7.0\ref\Bot.dll

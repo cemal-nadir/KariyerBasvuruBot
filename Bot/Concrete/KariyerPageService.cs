@@ -128,6 +128,7 @@ namespace Bot.Concrete
 
         public async Task<IEnumerable<string>> CheckJobsForMe(IEnumerable<string> jobsLinks)
         {
+            if (_kariyerConfig.Words is null) return jobsLinks;
             var referableJobs = new List<string>();
             foreach (var jobLink in jobsLinks)
             {

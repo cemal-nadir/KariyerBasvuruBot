@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {
+    "net7.0-windows7.0": {
       "AngleSharp/0.17.1": {
         "type": "package",
         "dependencies": {
@@ -510,12 +510,12 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
@@ -672,12 +672,12 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
@@ -685,7 +685,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -733,7 +733,7 @@
       },
       "Bot/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Browser": "1.0.0",
           "Core": "1.0.0",
@@ -748,7 +748,7 @@
       },
       "Browser/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Selenium.Support": "4.5.1",
           "Selenium.WebDriver": "4.5.1",
@@ -764,7 +764,7 @@
       },
       "Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "Selenium.WebDriver": "4.5.1"
@@ -2639,52 +2639,45 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": [
+    "net7.0-windows7.0": [
       "Bot >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
-    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
+    "C:\\Users\\cemal\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\App\\App.csproj",
+      "projectUniqueName": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\App\\App.csproj",
       "projectName": "App",
-      "projectPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\App\\App.csproj",
-      "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\App\\obj\\",
+      "projectPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\App\\App.csproj",
+      "packagesPath": "C:\\Users\\cemal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Users\\cemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows"
+        "net7.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/kaMrR6YKccpV1mrDb9YrM2zxaD7alADoWKZkHag4VXTWpt3F65/api": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Bot\\Bot.csproj": {
-              "projectPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Bot\\Bot.csproj"
+            "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Bot\\Bot.csproj": {
+              "projectPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Bot\\Bot.csproj"
             }
           }
         }
@@ -2696,8 +2689,8 @@
       }
     },
     "frameworks": {
-      "net5.0-windows7.0": {
-        "targetAlias": "net5.0-windows",
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -2717,7 +2710,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

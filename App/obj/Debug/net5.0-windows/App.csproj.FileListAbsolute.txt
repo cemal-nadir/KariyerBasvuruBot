@@ -3,7 +3,6 @@ C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\App.d
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\App.runtimeconfig.json
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\App.runtimeconfig.dev.json
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\App.dll
-C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\ref\App.dll
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\App.pdb
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\AngleSharp.dll
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\DevExpress.Data.v21.1.dll
@@ -38,7 +37,6 @@ C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\Bot.p
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\Core.pdb
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\bin\Debug\net5.0-windows\Browser.pdb
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\App.csproj.AssemblyReference.cache
-C:\Users\cemal\source\repos\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\App.Forms.frmApplyConfigs.resources
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\App.Forms.frmMain.resources
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\App.Properties.Resources.resources
 C:\Users\cemal\source\repos\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\App.csproj.GenerateResource.cache
@@ -103,3 +101,4 @@ C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\refint\Ap
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\App.pdb
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\App.genruntimeconfig.cache
 C:\Users\HUAWEI\Desktop\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\ref\App.dll
+C:\Users\cemal\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net5.0-windows\refint\App.dll

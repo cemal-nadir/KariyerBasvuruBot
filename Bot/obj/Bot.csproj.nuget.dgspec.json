@@ -1,48 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Bot\\Bot.csproj": {}
+    "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Bot\\Bot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Bot\\Bot.csproj": {
+    "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Bot\\Bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Bot\\Bot.csproj",
+        "projectUniqueName": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Bot\\Bot.csproj",
         "projectName": "Bot",
-        "projectPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Bot\\Bot.csproj",
-        "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Bot\\obj\\",
+        "projectPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Bot\\Bot.csproj",
+        "packagesPath": "C:\\Users\\cemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Bot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Users\\cemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/kaMrR6YKccpV1mrDb9YrM2zxaD7alADoWKZkHag4VXTWpt3F65/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Browser\\Browser.csproj": {
-                "projectPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Browser\\Browser.csproj"
+              "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Browser\\Browser.csproj": {
+                "projectPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Browser\\Browser.csproj"
               },
-              "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Core\\Core.csproj"
+              "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj"
               }
             }
           }
@@ -54,8 +49,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "DevExpress.Xpo": {
               "target": "Package",
@@ -78,43 +73,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Browser\\Browser.csproj": {
+    "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Browser\\Browser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Browser\\Browser.csproj",
+        "projectUniqueName": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Browser\\Browser.csproj",
         "projectName": "Browser",
-        "projectPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Browser\\Browser.csproj",
-        "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Browser\\obj\\",
+        "projectPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Browser\\Browser.csproj",
+        "packagesPath": "C:\\Users\\cemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Browser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Users\\cemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/kaMrR6YKccpV1mrDb9YrM2zxaD7alADoWKZkHag4VXTWpt3F65/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -125,8 +115,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Selenium.Support": {
               "target": "Package",
@@ -161,43 +151,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Core\\Core.csproj": {
+    "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HUAWEI\\Desktop\\KariyerBasvuruBot\\Core\\obj\\",
+        "projectPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\cemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Users\\cemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/kaMrR6YKccpV1mrDb9YrM2zxaD7alADoWKZkHag4VXTWpt3F65/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -208,8 +193,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -236,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

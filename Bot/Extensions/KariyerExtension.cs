@@ -4,6 +4,7 @@ using System.Threading;
 using Browser.Helpers;
 using Core.Configs;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.Extensions;
 
 namespace Bot.Extensions
 {
@@ -80,6 +81,15 @@ namespace Bot.Extensions
                 Thread.Sleep(2000);
 
 
+            }
+            catch
+            {
+                // ignored
+            }
+            try
+            {
+                var notificationDiv = driver.FindElement(By.ClassName("efilli-layout-starbucks"));
+                driver.ExecuteJavaScript("arguments[0].remove();", notificationDiv);
             }
             catch
             {
