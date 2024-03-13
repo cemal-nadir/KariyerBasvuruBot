@@ -1,6 +1,7 @@
 using App.Forms;
 using System;
 using System.Windows.Forms;
+using Bot.Helpers;
 
 namespace App
 {
@@ -15,7 +16,7 @@ namespace App
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
+            MainHelper.AppPath = Application.StartupPath;
             //  Application.ThreadException += new ThreadExceptionEventHandler(MyCommonExceptionHandlingMethod);
 
           

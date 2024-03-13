@@ -8,7 +8,9 @@ namespace Core.Configs.Kariyer
         public IEnumerable<string> Countries { get; set; }
         public IEnumerable<string> Cities { get; set; }
         public IEnumerable<string> Counties { get; set; }
-        public bool OnlyRemoteJobs { get; set; }
+        public bool RemoteJob { get; set; }
+        public bool HybridJob { get; set; }
+        public bool OnSite { get; set; }
         public string Date { get; set; }
         public bool FirstTimePublished { get; set; }
         public bool JobsForYou { get; set; }
@@ -25,7 +27,6 @@ namespace Core.Configs.Kariyer
         public IEnumerable<string> JobLanguages { get; set; }
         public string ExpeirenceTime { get; set; }
         public string DisabilityJobs { get; set; }
-
         public IEnumerable<string> Words { get; set; }
 
     }

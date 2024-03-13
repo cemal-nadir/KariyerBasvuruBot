@@ -55,9 +55,10 @@ namespace Bot.Workers
 
                 await _pageService.ApplyJobs(filteredJobs, ApplyJobConfigs);
 
+                await _pageService.NextPage();
+
                 pageIsLast = await _pageService.CheckPageIsLast();
 
-                await _pageService.NextPage();
             }
             while (!pageIsLast);
 

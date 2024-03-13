@@ -3,10 +3,12 @@
     "Türkiye"
   ],
   "Cities": [
-    "İzmir"
+    "İstanbul(Tümü)"
   ],
   "Counties": null,
-  "OnlyRemoteJobs": false,
+  "RemoteJob": true,
+  "HybridJob": true,
+  "OnSite": true,
   "Date": "Tümü",
   "FirstTimePublished": false,
   "JobsForYou": false,
@@ -18,10 +20,13 @@
   "Departments": [
     "Satış",
     "Satış ve Pazarlama",
-    "Pazarlama"
+    "Pazarlama",
+    "Müşteri Hizmetleri",
+    "Müşteri Hizmetleri / Çağrı Merkezi"
   ],
   "WorkingTypes": [
-    "Sürekli / Tam zamanlı"
+    "Sürekli / Tam zamanlı",
+    "Dönemsel / Proje bazlı"
   ],
   "EducationLevels": null,
   "Positions": null,
@@ -30,6 +35,6 @@
     "Türkçe"
   ],
   "ExpeirenceTime": "Tümü",
-  "DisabilityJobs": null,
+  "DisabilityJobs": "Engelli ilanlarını gösterme",
   "Words": null
 }

@@ -18,8 +18,6 @@ namespace Bot.Extensions
         public static void GoLoginPage(this IWebDriver driver)
         {
             driver.Navigate().GoToUrl(UrlConfigs.KariyerLoginUrl);
-            driver.WaitPageLoad(20);
-            Thread.Sleep(5000);
         }
         /// <summary>
         /// Kariyer İş Arama Ekranını Açar
@@ -28,6 +26,13 @@ namespace Bot.Extensions
         public static void GoJobSearchScreen(this IWebDriver driver)
         {
             driver.Navigate().GoToUrl(UrlConfigs.KariyerJobSearchUrl);
+            var guideSkipButton = driver.FindElement(By.ClassName("k-guide-skip-button"));
+            driver.ClickWithJs(guideSkipButton);
+
+            var shadowHost = driver.FindElement(By.TagName("efilli-layout-starbucks"));
+            var js = (IJavaScriptExecutor)driver;
+            var innerElement = (IWebElement)js.ExecuteScript("return arguments[0].shadowRoot.querySelector('.banner__accept-button');", shadowHost);
+            driver.ClickWithJs(innerElement);
         }
         /// <summary>
         /// Kariyer'e Giriş Yapılıp Yapılmadığını Kontrol Eder
@@ -36,11 +41,15 @@ namespace Bot.Extensions
         /// <returns></returns>
         public static bool CheckIsLogged(this IWebDriver driver)
         {
-            while (string.IsNullOrEmpty(driver.PageSource))
+            try
             {
-                Thread.Sleep(100);
+                var element = driver.FindElement(By.ClassName("profile-name"));
+                return element != null;
             }
-            return driver.PageSource.Contains("profile-url");
+            catch
+            {
+                return false;
+            }
         }
         /// <summary>
         /// Kariyer İş Filtrelemelerini Uygulamak İçin Basılması Gereken Butona Basar
@@ -51,51 +60,9 @@ namespace Bot.Extensions
 
             var element = driver.FindElement(By.XPath("//button[@data-test='apply-button']"));
             driver.ClickWithJs(element);
-            driver.WaitPageLoad(20).Wait();
         }
 
-        public static void CheckAndCloseNotification(this IWebDriver driver)
-        {
-            try
-            {
-                var notificationDiv = driver.FindElement(By.CssSelector("body > div.vl-notifier-container"));
-                driver.ClickWithJs(notificationDiv.FindElement(By.ClassName("vl-close")));
-                driver.WaitPageLoad(20).Wait();
-                Thread.Sleep(2000);
 
-
-            }
-            catch
-            {
-                // ignored
-            }
-        }
-        public static void CheckAndCloseCookiePolicy(this IWebDriver driver)
-        {
-            try
-            {
-                var notificationDiv = driver.FindElement(By.CssSelector("body > div.cookie-policy"));
-                var closeButton = notificationDiv.FindElement(By.ClassName("cookie-policy-close"));
-                driver.ClickWithJs(closeButton);
-                driver.WaitPageLoad(20).Wait();
-                Thread.Sleep(2000);
-
-
-            }
-            catch
-            {
-                // ignored
-            }
-            try
-            {
-                var notificationDiv = driver.FindElement(By.ClassName("efilli-layout-starbucks"));
-                driver.ExecuteJavaScript("arguments[0].remove();", notificationDiv);
-            }
-            catch
-            {
-                // ignored
-            }
-        }
 
         public static void OpenCollapse(this IWebDriver driver, string collapseId)
         {
@@ -108,14 +75,12 @@ namespace Bot.Extensions
                 {
                     var aTag = element.FindElement(By.TagName("a"));
                     driver.ClickWithJs(aTag);
-                    Thread.Sleep(1000);
                 }
                 catch
                 {
                     // ignored
                 }
             }
-            driver.WaitPageLoad(20).Wait();
         }
         #endregion
 
@@ -148,8 +113,6 @@ namespace Bot.Extensions
                     try
                     {
                         driver.ClickWithJs(element);
-                        driver.WaitPageLoad(20).Wait();
-                        Thread.Sleep(1000);
                         addedCache.Add(element.Text);
                     }
                     catch
@@ -157,7 +120,6 @@ namespace Bot.Extensions
                         // ignored
                     }
                 }
-                driver.WaitPageLoad(20).Wait();
             }
         }
 
@@ -181,11 +143,8 @@ namespace Bot.Extensions
             {
                 driver.ClickWithJs(inputBoxSection);
 
-                driver.WaitPageLoad(20).Wait();
-                Thread.Sleep(1000);
                 inputBoxSection.Clear();
                 inputBoxSection.SendKeys(text);
-                driver.WaitPageLoad(20).Wait();
                 Thread.Sleep(1000);
                 var elements = filterSection.FindElements(By.XPath("//*[contains(text(),'" + text + "')]"))
                     .Where(x => x.Text.ToLower(System.Globalization.CultureInfo.CreateSpecificCulture("tr")).Replace(" ", "") ==
@@ -197,8 +156,6 @@ namespace Bot.Extensions
                     try
                     {
                         driver.ClickWithJs(element);
-                        driver.WaitPageLoad(20);
-                        Thread.Sleep(1000);
                         addedCache.Add(element.Text);
                     }
                     catch
@@ -206,8 +163,6 @@ namespace Bot.Extensions
                         // ignored
                     }
                 }
-                driver.WaitPageLoad(20).Wait();
-                Thread.Sleep(1000);
             }
         }
         #endregion
@@ -217,10 +172,12 @@ namespace Bot.Extensions
         /// Uzaktan Çalışma İlan Filtreleme
         /// </summary>
         /// <param name="driver"></param>
-        public static void FilterRemoteJobs(this IWebDriver driver)
+
+        public static void FilterCheckBox(this IWebDriver driver, string text)
         {
-            var filterSection = driver.GetFilterSection();
-            driver.ClickWithJs(filterSection.FindElement(By.XPath("//*[contains(text(),'Uzaktan Çalışma')]")));
+            driver.ClickWithJs(driver.GetFilterSection().FindElements(By.ClassName("custom-checkbox"))
+                .FirstOrDefault(x => x.Text == text)?.FindElements(By.TagName("input"))
+                .FirstOrDefault(x => x.GetAttribute("type") == "checkbox"));
         }
         /// <summary>
         /// Başvurduğum İlanları Gösterme Filtrelemesi
@@ -253,8 +210,6 @@ namespace Bot.Extensions
                 try
                 {
                     driver.ClickWithJs(element);
-                    driver.WaitPageLoad(20).Wait();
-                    Thread.Sleep(1000);
                 }
                 catch
                 {
@@ -266,12 +221,8 @@ namespace Bot.Extensions
 
         #endregion
 
-
-
-
         private static IWebElement GetFilterSection(this IWebDriver driver, string collapseId = null)
         {
-            Thread.Sleep(3000);
             if (collapseId is null)
                 return driver.FindElement(By.Id("filter-section"));
 

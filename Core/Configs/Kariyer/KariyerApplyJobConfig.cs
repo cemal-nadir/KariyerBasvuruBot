@@ -4,8 +4,7 @@ namespace Core.Configs.Kariyer
 {
     public class KariyerApplyJobConfig:IApplyJobConfig
     {
-        public string SelectId { get; set; }
-        public string SelectCaption { get; set; }
-        public string OptionString { get; set; }
+        public string Question { get; set; }
+        public string Answer { get; set; }
     }
 }

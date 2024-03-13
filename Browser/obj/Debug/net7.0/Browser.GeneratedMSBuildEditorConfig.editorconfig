@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Browser
-build_property.ProjectDir = C:\Users\cemal\Source\Repos\KariyerBasvuruBot\Browser\
+build_property.ProjectDir = C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

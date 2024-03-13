@@ -5,6 +5,7 @@ using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 using WebDriverManager.Helpers;
 using Browser.Helpers;
+using System;
 
 namespace Browser.Base
 {
@@ -35,7 +36,9 @@ namespace Browser.Base
             var service=ChromeDriverService.CreateDefaultService(serviceLoc);
             service.SuppressInitialDiagnosticInformation = true;
             service.HideCommandPromptWindow = true;
-            return new ChromeDriver(service, _options);
+            var driver= new ChromeDriver(service, _options);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            return driver;
         }
     }
 }

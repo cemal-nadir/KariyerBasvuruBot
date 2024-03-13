@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj": {}
+    "C:\\Users\\msi\\source\\repos\\KariyerBasvuruBot\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj": {
+    "C:\\Users\\msi\\source\\repos\\KariyerBasvuruBot\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\msi\\source\\repos\\KariyerBasvuruBot\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\cemal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cemal\\Source\\Repos\\KariyerBasvuruBot\\Core\\obj\\",
+        "projectPath": "C:\\Users\\msi\\source\\repos\\KariyerBasvuruBot\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\msi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msi\\source\\repos\\KariyerBasvuruBot\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\msi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

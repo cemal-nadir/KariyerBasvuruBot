@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using App.Helpers;
+using Bot.Helpers;
 
 namespace App.Forms
 {

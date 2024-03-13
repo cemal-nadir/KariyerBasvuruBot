@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
 using System.Windows.Forms;
-using App.Helpers;
+using Bot.Helpers;
 using Bot.Workers;
 using Core.Bot;
 using Core.Configs.Kariyer;
-using Core.Helpers;
+using FormHelper = App.Helpers.FormHelper;
 
 namespace App.Forms
 {
@@ -23,14 +23,14 @@ namespace App.Forms
 
         private void countryRemove_Click(object sender, EventArgs e)
         {
-            listCountry.RemoveListItems();
+            FormHelper.RemoveListItems(listCountry);
         }
 
         private void countryAdd_Click(object sender, EventArgs e)
         {
             var value = string.Empty;
             if (FormHelper.InputBox("Ülke Ekle", "Eklemek İstediğiniz Ülkeyi Girin", ref value) is DialogResult.OK &&
-                listCountry.IsInsertingValueUnique(value))
+                FormHelper.IsInsertingValueUnique(listCountry, value))
             {
                 listCountry.Items.Add(value);
             }
@@ -38,14 +38,14 @@ namespace App.Forms
 
         private void cityRemove_Click(object sender, EventArgs e)
         {
-            listCity.RemoveListItems();
+            FormHelper.RemoveListItems(listCity);
         }
 
         private void cityAdd_Click(object sender, EventArgs e)
         {
             var value = string.Empty;
             if (FormHelper.InputBox("Şehir Ekle", "Eklemek İstediğiniz Şehri Girin", ref value) is DialogResult.OK &&
-                listCity.IsInsertingValueUnique(value))
+                FormHelper.IsInsertingValueUnique(listCity, value))
             {
                 listCity.Items.Add(value);
             }
@@ -55,7 +55,7 @@ namespace App.Forms
         {
             var value = string.Empty;
             if (FormHelper.InputBox("İlçe Ekle", "Eklemek İstediğiniz İlçeyi Girin", ref value) is DialogResult.OK &&
-                listCounty.IsInsertingValueUnique(value))
+                FormHelper.IsInsertingValueUnique(listCounty, value))
             {
                 listCounty.Items.Add(value);
             }
@@ -63,14 +63,14 @@ namespace App.Forms
 
         private void countyRemove_Click(object sender, EventArgs e)
         {
-            listCounty.RemoveListItems();
+            FormHelper.RemoveListItems(listCounty);
         }
 
         private void sectorAdd_Click(object sender, EventArgs e)
         {
             var value = string.Empty;
             if (FormHelper.InputBox("Sektör Ekle", "Eklemek İstediğiniz Şirket Sektörünü Girin", ref value) is DialogResult.OK &&
-                listSector.IsInsertingValueUnique(value))
+                FormHelper.IsInsertingValueUnique(listSector, value))
             {
                 listSector.Items.Add(value);
             }
@@ -80,7 +80,7 @@ namespace App.Forms
         {
             var value = string.Empty;
             if (FormHelper.InputBox("Departman Ekle", "Eklemek İstediğiniz Departmanı Girin", ref value) is DialogResult.OK &&
-                listDepartment.IsInsertingValueUnique(value))
+                FormHelper.IsInsertingValueUnique(listDepartment, value))
             {
                 listDepartment.Items.Add(value);
             }
@@ -90,7 +90,7 @@ namespace App.Forms
         {
             var value = string.Empty;
             if (FormHelper.InputBox("Pozisyon Ekle", "Eklemek İstediğiniz Pozisyonu Girin", ref value) is DialogResult.OK &&
-                listPosition.IsInsertingValueUnique(value))
+                FormHelper.IsInsertingValueUnique(listPosition, value))
             {
                 listPosition.Items.Add(value);
             }
@@ -107,8 +107,10 @@ namespace App.Forms
                 Date = comboDate.SelectedItem?.ToString(),
                 ExpeirenceTime = comboExpeirenceTime.SelectedItem?.ToString(),
                 DisabilityJobs = comboHandicappedPerson.SelectedItem?.ToString(),
-                OnlyRemoteJobs = checkSingle.GetItemCheckState(0) == CheckState.Checked,
+                RemoteJob = checkSingle.GetItemCheckState(0) == CheckState.Checked,
                 FirstTimePublished = checkSingle.GetItemCheckState(1) == CheckState.Checked,
+                HybridJob = checkSingle.GetItemCheckState(2) == CheckState.Checked,
+                OnSite = checkSingle.GetItemCheckState(3) == CheckState.Checked,
                 JobsForYou = checkAdvertProperties.GetItemCheckState(0) == CheckState.Checked,
                 SavedJobs = checkAdvertProperties.GetItemCheckState(1) == CheckState.Checked,
                 FollowedCompaniesJobs = checkAdvertProperties.GetItemCheckState(2) == CheckState.Checked,
@@ -156,21 +158,7 @@ namespace App.Forms
             }
             catch (Exception ex)
             {
-                if (ex.Message.Contains("1|"))
-                {
-                    var value = "";
-                    var model = CustomException.ExtractKariyerApplyJobConfigFromException(ex.Message);
-                    MessageBox.Show(model.SelectCaption + " - Alanı belirlenmemiş. Lütfen alanı belirleyin ", "Uyarı",MessageBoxButtons.OK,MessageBoxIcon.Warning);
-                    while (FormHelper.InputBox(model.SelectId + " id\'li alanı belirleyin", model.SelectCaption, ref value) == DialogResult.Cancel)
-                    {
-                    }
-
-                    model.OptionString = value;
-                    var currentConfig = MainHelper.GetSavedKariyerApplyConfig().ToList();
-                    currentConfig.Add(model);
-                    currentConfig.SaveKariyerApplyConfigs();
-                   
-                }
+               
                 await _worker.StopBot();
                 button1_Click(sender,e);
             }
@@ -188,8 +176,10 @@ namespace App.Forms
                 Date = comboDate.SelectedItem?.ToString(),
                 ExpeirenceTime = comboExpeirenceTime.SelectedItem?.ToString(),
                 DisabilityJobs = comboHandicappedPerson.SelectedItem?.ToString(),
-                OnlyRemoteJobs = checkSingle.GetItemCheckState(0) == CheckState.Checked,
+                RemoteJob = checkSingle.GetItemCheckState(0) == CheckState.Checked,
                 FirstTimePublished = checkSingle.GetItemCheckState(1) == CheckState.Checked,
+                HybridJob = checkSingle.GetItemCheckState(2) == CheckState.Checked,
+                OnSite = checkSingle.GetItemCheckState(3) == CheckState.Checked,
                 JobsForYou = checkAdvertProperties.GetItemCheckState(0) == CheckState.Checked,
                 SavedJobs = checkAdvertProperties.GetItemCheckState(1) == CheckState.Checked,
                 FollowedCompaniesJobs = checkAdvertProperties.GetItemCheckState(2) == CheckState.Checked,
@@ -232,10 +222,15 @@ namespace App.Forms
             comboExpeirenceTime.SelectedItem = config.ExpeirenceTime;
             comboHandicappedPerson.SelectedItem = config.DisabilityJobs;
 
-            if (config.OnlyRemoteJobs)
+            if (config.RemoteJob)
                 checkSingle.SetItemChecked(0, true);
+
             if (config.FirstTimePublished)
                 checkSingle.SetItemChecked(1, true);
+            if (config.HybridJob)
+                checkSingle.SetItemChecked(2, true);
+            if (config.OnSite)
+                checkSingle.SetItemChecked(3, true);
             if (config.JobsForYou)
                 checkAdvertProperties.SetItemChecked(0, true);
             if (config.SavedJobs)
@@ -272,7 +267,7 @@ namespace App.Forms
                     if (config.EducationLevels.Any(x => x == checkEducationLevel.Items[i].ToString()))
                         checkEducationLevel.SetItemChecked(i, true);
                 }
-            if (config.PositionLevels != null)
+            if (config.Positions != null)
                 foreach (var position in config.Positions)
                 {
                     listPosition.Items.Add(position);
@@ -293,24 +288,24 @@ namespace App.Forms
 
         private void sectorRemove_Click(object sender, EventArgs e)
         {
-            listSector.RemoveListItems();
+            FormHelper.RemoveListItems(listSector);
         }
 
         private void departmentRemove_Click(object sender, EventArgs e)
         {
-            listDepartment.RemoveListItems();
+            FormHelper.RemoveListItems(listDepartment);
         }
 
         private void removePosition_Click(object sender, EventArgs e)
         {
-            listPosition.RemoveListItems();
+            FormHelper.RemoveListItems(listPosition);
         }
 
         private void addWordList_Click(object sender, EventArgs e)
         {
             var value = string.Empty;
             if (FormHelper.InputBox("Kelime Ekle", "İlanda geçmesi gereken kelimeyi girin", ref value) is DialogResult.OK &&
-                listWordList.IsInsertingValueUnique(value))
+                FormHelper.IsInsertingValueUnique(listWordList, value))
             {
                 listWordList.Items.Add(value);
             }
@@ -318,7 +313,7 @@ namespace App.Forms
 
         private void removeWordList_Click(object sender, EventArgs e)
         {
-            listWordList.RemoveListItems();
+            FormHelper.RemoveListItems(listWordList);
         }
 
         private void setApplySettings_Click(object sender, EventArgs e)
