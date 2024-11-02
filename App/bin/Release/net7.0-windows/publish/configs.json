@@ -1,0 +1,34 @@
+﻿{
+  "Countries": [
+    "Türkiye"
+  ],
+  "Cities": [
+    "Kocaeli"
+  ],
+  "Counties": ["Gebze"],
+  "RemoteJob": true,
+  "HybridJob": true,
+  "OnSite": true,
+  "Date": "Tümü",
+  "FirstTimePublished": false,
+  "JobsForYou": false,
+  "SavedJobs": false,
+  "FollowedCompaniesJobs": false,
+  "ViewedJobs": false,
+  "Sectors": null,
+  "PositionLevels": null,
+  "Departments":null,
+  "WorkingTypes": [
+    "Sürekli / Tam zamanlı",
+    "Dönemsel / Proje bazlı"
+  ],
+  "EducationLevels": null,
+  "Positions": ["Satış Danışmanı","Uzman Satış Danışmanı","Mağaza Satış Danışmanı","Kurumsal Satış Danışmanı","Eğitim Satış Danışmanı"],
+  "CompanyProperties": null,
+  "JobLanguages": [
+    "Türkçe"
+  ],
+  "ExpeirenceTime": "Tümü",
+  "DisabilityJobs": "Engelli ilanlarını gösterme",
+  "Words": null
+}

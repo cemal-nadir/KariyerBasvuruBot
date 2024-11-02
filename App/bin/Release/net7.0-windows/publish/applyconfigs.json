@@ -1,0 +1,82 @@
+﻿[
+  {
+    "Question": "cv",
+    "Answer": "cvc"
+  },
+  {
+    "Question": "Şu an çalışıyor musunuz? *",
+    "Answer": "Hayır"
+  },
+  {
+    "Question": "Kaç yıldır bu pozisyonda çalışıyorsunuz/çalıştınız? *",
+    "Answer": "0 - 1 Yıl"
+  },
+  {
+    "Question": "Vardiyalı veya hafta sonları çalışır mısınız? *",
+    "Answer": "Evet"
+  },
+  {
+    "Question": "coverLetter",
+    "Answer": "Sayın İnsan Kaynakları Yetkilisi"
+  },
+  {
+    "Question": "Net ücret beklenti aralığınızı belirtin. *",
+    "Answer": "20000 – 25000"
+  },
+  {
+    "Question": "İngilizce seviyeniz nedir? *",
+    "Answer": "İyi"
+  },
+  {
+    "Question": "Hangi programları kullanabiliyorsunuz? *",
+    "Answer": "Microsoft Ofis Programları, Her Türlü Crm Yazılımları"
+  },
+  {
+    "Question": "Evinizde çalışabileceğiniz uygun, sessiz bir ortama ve sabit internet altyapısına sahip misiniz? *",
+    "Answer": "Evet"
+  },
+  {
+    "Question": "Hangi sertifikalarınız/belgeleriniz var? *",
+    "Answer": "Beden Dili, Etkili İletişim, İkna Kabliliyeti"
+  },
+  {
+    "Question": "Seyahat engeliniz var mı? *",
+    "Answer": "Seyahat sıklığına göre değerlendireceğim."
+  },
+  {
+    "Question": "Aktif olarak araç kullanıyor musunuz? *",
+    "Answer": "Hayır"
+  },
+  {
+    "Question": "Zorunlu staj belgeniz var mı? *",
+    "Answer": "Hayır"
+  },
+  {
+    "Question": "Satış yeteneğinize ve ikna kabiliyetinize güveniyor musunuz ? *",
+    "Answer": "EVET"
+  },
+  {
+    "Question": "Şans, iddaa gibi oyunlara ilginiz var mı *",
+    "Answer": "Evet"
+  },
+  {
+    "Question": "Bu pozisyon için net ücret beklentiniz nedir? *",
+    "Answer": "25000"
+  },
+  {
+    "Question": "Vardiyalı ve hafta sonları çalışır mısınız? *",
+    "Answer": "Evet"
+  },
+  {
+    "Question": "İyi seviyede Excel kullanabiliyor musunuz? *",
+    "Answer": "Evet"
+  },
+  {
+    "Question": "Net ücret beklenti aralığınızı belirtiniz *",
+    "Answer": "25000"
+  },
+  {
+    "Question": "Şehir Seçiniz *",
+    "Answer": "Kocaeli"
+  }
+]

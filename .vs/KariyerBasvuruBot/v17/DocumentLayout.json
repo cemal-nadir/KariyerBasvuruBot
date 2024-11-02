@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\msi\\source\\repos\\KariyerBasvuruBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\msi\\AppData\\Local\\Temp\\.vsdbgsrc\\d7d8c9a32d72253e45262062a587e8393f462b51085b82d3135ca0ebd3689e17\\Delegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499AEA17-F1B2-4947-AE86-905A3FA23B83}|Bot\\Bot.csproj|c:\\users\\msi\\source\\repos\\kariyerbasvurubot\\bot\\concrete\\kariyerpageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499AEA17-F1B2-4947-AE86-905A3FA23B83}|Bot\\Bot.csproj|solutionrelative:bot\\concrete\\kariyerpageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delegate.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\AppData\\Local\\Temp\\.vsdbgsrc\\d7d8c9a32d72253e45262062a587e8393f462b51085b82d3135ca0ebd3689e17\\Delegate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\d7d8c9a32d72253e45262062a587e8393f462b51085b82d3135ca0ebd3689e17\\Delegate.cs",
+              "ToolTip": "C:\\Users\\msi\\AppData\\Local\\Temp\\.vsdbgsrc\\d7d8c9a32d72253e45262062a587e8393f462b51085b82d3135ca0ebd3689e17\\Delegate.cs[Salt Okunur]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\d7d8c9a32d72253e45262062a587e8393f462b51085b82d3135ca0ebd3689e17\\Delegate.cs[Salt Okunur]",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwDUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T00:02:07.692Z",
+              "EditorCaption": "[Salt Okunur]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KariyerPageService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\KariyerBasvuruBot\\Bot\\Concrete\\KariyerPageService.cs",
+              "RelativeDocumentMoniker": "Bot\\Concrete\\KariyerPageService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\KariyerBasvuruBot\\Bot\\Concrete\\KariyerPageService.cs",
+              "RelativeToolTip": "Bot\\Concrete\\KariyerPageService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T00:01:05.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

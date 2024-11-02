@@ -1,0 +1,16 @@
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\bin\Release\net7.0\selenium-manager\linux\selenium-manager
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\bin\Release\net7.0\selenium-manager\macos\selenium-manager
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\bin\Release\net7.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\bin\Release\net7.0\Browser.deps.json
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\bin\Release\net7.0\Browser.dll
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\bin\Release\net7.0\Browser.pdb
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\Browser.csproj.AssemblyReference.cache
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\Browser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\Browser.AssemblyInfoInputs.cache
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\Browser.AssemblyInfo.cs
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\Browser.csproj.CoreCompileInputs.cache
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\Browser.sourcelink.json
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\Browser.dll
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\refint\Browser.dll
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\Browser.pdb
+C:\Users\msi\source\repos\KariyerBasvuruBot\Browser\obj\Release\net7.0\ref\Browser.dll

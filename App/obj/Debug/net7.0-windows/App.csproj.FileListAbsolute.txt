@@ -89,7 +89,6 @@ C:\Users\msi\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.Ass
 C:\Users\msi\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.AssemblyInfo.cs
 C:\Users\msi\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.csproj.CoreCompileInputs.cache
 C:\Users\msi\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.sourcelink.json
-C:\Users\msi\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.csproj.CopyComplete
 C:\Users\msi\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.dll
 C:\Users\msi\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\refint\App.dll
 C:\Users\msi\Source\Repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.pdb
@@ -99,3 +98,4 @@ C:\Users\msi\source\repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.For
 C:\Users\msi\source\repos\KariyerBasvuruBot\App\bin\Debug\net7.0-windows\selenium-manager\linux\selenium-manager
 C:\Users\msi\source\repos\KariyerBasvuruBot\App\bin\Debug\net7.0-windows\selenium-manager\macos\selenium-manager
 C:\Users\msi\source\repos\KariyerBasvuruBot\App\bin\Debug\net7.0-windows\selenium-manager\windows\selenium-manager.exe
+C:\Users\msi\source\repos\KariyerBasvuruBot\App\obj\Debug\net7.0-windows\App.csproj.Up2Date
